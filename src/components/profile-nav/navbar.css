@@ -1,0 +1,133 @@
+
+ 
+.bg-nav{
+    background: black;
+}
+.drope {
+  /* margin-left: 59px !important; */
+  margin-right: 20px;
+  background: #7c7c7c;
+  color: #fff;
+  border: 0px;
+  /* border-top-left-radius: 20px; */
+  /* border-bottom-left-radius: 20px; */
+  font-size: 20px;
+}
+.search {
+  font-size: 20px;
+  padding: 8px 12px;
+  width: 400px;
+  background: #7c7c7c;
+  color: #fff;
+  border: 0px;
+  /* border-top-right-radius: 20px; */
+  /* border-bottom-right-radius: 20px; */
+  border-radius: 20px;
+}
+  .search::placeholder{
+  color: #ffff;
+  font-size: small;
+  }
+  .nav-btn{
+    font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background:linear-gradient(-32deg,#000033,#00ffff); 
+  color: #fff;
+  border: 0px;
+  }
+  .account{ 
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    margin-top: 0px;
+    justify-content: center;
+  }
+  .bell{
+  color:#00ffff; 
+  font-size: 40px;
+  padding: 4px;
+  border-radius: 30px;
+  }
+  .nav-item{
+    float:right;
+  padding: 5px 10px;
+  }
+  .navbar{
+      width: 100%;
+      margin-right:0px ;
+      margin-left:0px ;
+  }
+  .menu{
+    font-size: 25px;
+  }
+  /*drope down*/
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    float: left;
+    min-width: rem !important;
+    margin: .125rem -120px 0;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    background-color: #757475;
+    background-clip: padding-box;
+
+    transition: transform .3s cubic-bezier(.4,0,.2,1),opacity .2s cubic-bezier(.4,0,.2,1);
+  }
+  
+  
+  
+  .dropdown-menu .dropdown-item:focus, .dropdown-menu .dropdown-item:hover, .dropdown-menu a:active, .dropdown-menu a:focus, .dropdown-menu a:hover {
+    background-color: #3a393a;
+    color: #FFF;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+ 
+  /*navbar phone*/
+  .icon-search{
+      background:#00ffff ;
+      font-size: 25px;
+      padding: 3px;
+      border-radius: 30px;
+    
+    }
+    .bell-icon{
+      background:#00ffff ;
+      font-size: 25px;
+      padding: 3px;
+      border-radius: 30px;
+    
+    }
+    .account-icon{
+      width: 28px;
+      height: 28px;
+    }
+    .settings-icon{
+      background:#00ffff ;
+      font-size: 25px;
+      padding: 3px;
+      border-radius: 30px;
+      color: black;
+    }
+
+    @media (max-width: 576px){
+    
+          .desktop-nav{
+            display: none;
+          }
+        }
+
+        @media (max-width: 576px){
+        
+              .desktop-nav{
+                display: none;
+              }
+            }
+            

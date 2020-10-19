@@ -1,0 +1,38 @@
+body {
+    background-color: #f6f6f6;
+  }
+  .bookshelf .thumb{
+      display: inline-block;
+      cursor: pointer;
+      margin: 0px 0.5%;
+      width: 15% !important;
+      box-shadow:0px 1px 3px rgba(0,0,0,.3);
+      max-width:120px;
+  }
+  .bookshelf .thumb img{
+      width:100%;
+      display:block;
+      vertical-align:top;
+  }
+  .bookshelf .shelf-img{
+      z-index:0;
+      height: auto;
+      max-width: 100%;
+      vertical-align: top;
+      margin-top:-12px;
+  }
+  .bookshelf .covers{
+      width:100%;
+      height:auto;
+      z-index: 99;
+      position: relative;
+      text-align:center;
+  }
+  .bookshelf{
+      text-align: center;
+      padding:0px;
+  }
+
+
+
+  

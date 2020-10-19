@@ -1,0 +1,542 @@
+.nav {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Alata", sans-serif;
+  border: 1px solid #fff;
+  padding: 3px 10px;
+  z-index: 1;
+}
+.bg-nav {
+  background: linear-gradient(-32deg, #000033, #00ffff);
+}
+.logo span {
+  color: #000033;
+}
+.navbar-custom .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: normal;
+}
+.navbar-custom .navbar-nav .nav-link :hover {
+  color: #00ffff;
+}
+.container {
+  margin: 0 auto;
+}
+.row-header {
+  padding: 50px 0;
+}
+.row-content {
+  padding: 40px 0;
+}
+.row-bottom {
+  padding-bottom: 40px;
+}
+.jumbotron {
+  margin: 0 auto;
+  height: 600px;
+  background: rgb(23, 210, 227);
+  background-image: linear-gradient(
+    115deg,
+    #17d2e3,
+    #13b4ca,
+    #0e80a1,
+    #0a557e,
+    #063463,
+    #041c50,
+    #020d44,
+    #020941,
+    #020a42
+  );
+}
+.bg {
+  background-image: url(./images/Asset\ 21.svg);
+  background-repeat: no-repeat;
+  background-size: 600px;
+}
+.bg-ass-1 {
+  height: 500px;
+}
+.bg-face-1 {
+  height: 600px;
+  background-image: url(./images/face\ Face-01.svg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+}
+.AI01 {
+  padding-top: 30px;
+  z-index: 3;
+  bottom: 0px;
+  font-size: 60px;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.AI02 {
+  z-index: 3;
+  top: 0px;
+  font-size: 30px;
+  color: white;
+  bottom: 1050px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.desc {
+  z-index: 3;
+  bottom: 920px;
+  font-family: "Barlow", sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+.p-color {
+  color: #00ffff;
+}
+.get_started {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  bottom: 900px;
+  z-index: 2;
+  border-radius: 50rem;
+}
+
+.letus {
+  z-index: 2;
+  font-family: "Barlow", sans-serif;
+  font-size: 45px;
+  color: #0f4c75;
+  left: 370px;
+  bottom: 600px;
+  font-weight: 500;
+}
+
+.middlecontainer01 {
+  background-color: #fff;
+  width: 100%;
+  background-image: url(./images/Asset\ 13.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.btns {
+  width: 130px;
+  height: 130px;
+  background: linear-gradient(135deg, #17d2e3, #1098b4);
+}
+.texts {
+  position: relative;
+  top: 40px;
+  font-size: larger;
+}
+
+.btns {
+  margin: 10px;
+}
+
+.comp {
+  width: 400px;
+  height: 290px;
+}
+
+.about01 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+}
+
+.des01 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #dbe3e5;
+  line-height: 2;
+  font-size: large;
+}
+
+.middlecontainer02 {
+  background: rgb(23, 210, 227);
+  background: linear-gradient(
+    115deg,
+    #17d2e3,
+    #13b4ca,
+    #0e80a1,
+    #0a557e,
+    #063463,
+    #041c50,
+    #020d44,
+    #020941,
+    #020a42
+  );
+  width: 100%;
+}
+.middlecontainer02 {
+  position: relative;
+}
+.middlecontainer02 .bg-style-1 {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  right: 150px;
+  top: 110px;
+}
+.middlecontainer02 .bg-style-2 {
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+}
+.middlecontainer02 .bg-style-3 {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 15px;
+  left: 0px;
+}
+
+.desc01 {
+  top: 20px;
+  font-family: "Barlow", sans-serif;
+  font-size: 35px;
+  font-weight: 550;
+}
+.logo02 {
+  color: #fff;
+  font-size: 25px;
+  top: 27px;
+  font-family: "Alata", sans-serif;
+  border-style: solid;
+  padding: 9px;
+  z-index: 1;
+}
+footer {
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.lastcontainer {
+  background: rgb(23, 210, 227);
+  background: linear-gradient(
+    166deg,
+    rgba(23, 210, 227, 1) 0%,
+    rgba(12, 31, 94, 1) 69%,
+    rgba(1, 21, 59, 1) 100%
+  );
+  width: 100%;
+}
+
+.social-icon {
+  font-size: x-large;
+  margin: 20px 15px;
+  color: #00ffff;
+}
+.text-right {
+  color: #00ffff;
+}
+.copyright {
+  color: #fff;
+}
+.bg-footer {
+  background-image: url(./images/Asset\ 21.svg);
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 768px) {
+  .about01 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+    font-size: small;
+  }
+
+  .des01 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #dbe3e5;
+    line-height: 2;
+    font-size: 15px;
+  }
+  .AI01 {
+    padding-top: 70px;
+    z-index: 3;
+    bottom: 0px;
+    font-size: 50px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .AI02 {
+    z-index: 3;
+    top: 0px;
+    font-size: 25px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .desc {
+    z-index: 3;
+    bottom: 920px;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    color: #fff;
+  }
+}
+@media (max-width: 544px) {
+  .bg-face-1 {
+    height: 0x;
+    background-image: none;
+  }
+
+  .btns {
+    width: 130px;
+    height: 130px;
+  }
+  .texts {
+    font-size: large;
+  }
+  .about01 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+    font-size: small;
+    padding-top: 20px;
+  }
+  .desc01 {
+    top: 20px;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+  }
+
+  .middlecontainer02 .bg-style-1 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    right: 150px;
+    top: 450px;
+  }
+  .middlecontainer02 .bg-style-2 {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    bottom: 2px;
+    right: 40px;
+  }
+  .middlecontainer02 .bg-style-3 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 15px;
+    left: 16px;
+  }
+  .des01 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #dbe3e5;
+    line-height: 1.5;
+    font-size: 19px;
+  }
+}
+
+.logo03 {
+  display: flex;
+  flex-direction: row;
+}
+.logo03:before,
+.logo03:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #fff;
+  margin: auto;
+}
+.logo03:before {
+  margin-right: 10px;
+}
+.logo03:after {
+  margin-left: 10px;
+}
+
+/* login page*/
+
+.loginpage {
+  background: #b4e5e9;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Alata", sans-serif;
+  border: 1px solid #fff;
+  padding: 3px 10px;
+  z-index: 1;
+}
+.logbg-nav {
+  background: linear-gradient(-32deg, #000033, #00ffff);
+}
+.row-content {
+  padding: 40px 0;
+}
+.row-gap {
+  padding: 100px 0px;
+}
+.login {
+  color: white;
+  background: #136a8a;
+  background: linear-gradient(
+    115deg,
+    #17d2e3,
+    #13b4ca,
+    #0e80a1,
+    #0a557e,
+    #063463,
+    #041c50,
+    #020d44,
+    #020941,
+    #020a42
+  );
+  margin: auto;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.3),
+    0px 30px 60px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 50px;
+}
+.login .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .head .company {
+  font-size: 2.2em;
+}
+.login .msg {
+  text-align: center;
+}
+.login .form input[type="email"].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.login .form input[type="text"].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+}
+.login .form .text::placeholder {
+  color: #d3d3d3;
+}
+.login .form input[type="password"].password {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.login .form .password::placeholder {
+  color: #d3d3d3;
+}
+.login .form .btn-login {
+  background: none;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 0px 2px white;
+  border-radius: 3px;
+  padding: 5px 2em;
+  transition: 0.5s;
+}
+.login .form .btn-signup:hover {
+  background: white;
+  color: dimgray;
+  transition: 0.5s;
+}
+.login .form .btn-signup {
+  background: none;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0px 0px 0px 2px white;
+  border-radius: 3px;
+  padding: 5px 2em;
+  transition: 0.5s;
+}
+.login .form .btn-signup:hover {
+  background: white;
+  color: dimgray;
+  transition: 0.5s;
+}
+
+.login .forgot {
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+
+.logo02 {
+  color: #fff;
+  font-size: 25px;
+  top: 27px;
+  font-family: "Alata", sans-serif;
+  border-style: solid;
+  padding: 9px;
+  z-index: 1;
+}
+.logo03 {
+  display: flex;
+  flex-direction: row;
+}
+.logo03:before,
+.logo03:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #fff;
+  margin: auto;
+}
+.logo03:before {
+  margin-right: 10px;
+}
+.logo03:after {
+  margin-left: 10px;
+}
+footer {
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.lastcontainer {
+  background: rgb(23, 210, 227);
+  background: linear-gradient(
+    166deg,
+    rgba(23, 210, 227, 1) 0%,
+    rgba(12, 31, 94, 1) 69%,
+    rgba(1, 21, 59, 1) 100%
+  );
+  width: 100%;
+}
+
+.social-icon {
+  font-size: x-large;
+  margin: 20px 15px;
+  color: #00ffff;
+}
+.text-right {
+  color: #00ffff;
+}
+.copyright {
+  color: #fff;
+}
+.bg-footer {
+  background-image: url(./images/Asset\ 21.svg);
+}

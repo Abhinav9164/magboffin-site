@@ -1,0 +1,110 @@
+.tag {
+  color: #00afaf;
+}
+.row-content {
+  padding: 30px 0px;
+}
+.row-content h2 {
+  font-size: xx-large;
+  color: #707070;
+}
+.icon {
+  right: 0;
+}
+
+.img {
+  width: 300px;
+  padding: 40px 0;
+}
+.card-header h2 {
+  color: #fff;
+}
+.card-body p {
+  color: #aaaaaa;
+}
+.card {
+  background: #2a2a2a;
+}
+.gap {
+  padding: 5px 0;
+  background: linear-gradient(-32deg, #000033, #00ffff);
+}
+
+.image {
+  width: 200px;
+  height: 10px;
+}
+.back {
+  color: lightYellow;
+  background-color: black;
+}
+
+.back:focus,
+.back:hover {
+  color: #fff;
+  background: linear-gradient(-32deg, #000033, #00ffff);
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+.bookshelf .thumb {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0px 2%;
+  width: 15% !important;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+  max-width: 150px;
+  min-width: 60px;
+}
+.bookshelf .thumb img {
+  width: 100%;
+  display: block;
+  vertical-align: top;
+}
+.bookshelf .shelf-img {
+  z-index: 0;
+  height: auto;
+  max-width: 80%;
+  vertical-align: top;
+  margin-top: -12px;
+}
+.bookshelf .covers {
+  width: 100%;
+  height: auto;
+  z-index: 99;
+  position: relative;
+  text-align: center;
+}
+.bookshelf {
+  text-align: center;
+  padding: 0px;
+  padding-top: 80px;
+}
+
+/*pages*/
+.back-arrow {
+  font-size: 40px;
+  color: #fff;
+}
+.media-body {
+  color: #aaaaaa;
+}
+.read-btn {
+  width: 120px;
+  border-radius: 60px;
+  background: linear-gradient(-32deg, #000033, #00ffff);
+  color: #fff;
+  border: 0px;
+}
+.book {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0px 2%;
+  width: 100% !important;
+  box-shadow: 0px 1px 3px #0000004d;
+  max-width: 150px;
+  min-width: 40px;
+}
+.about-book {
+  color: #aaaaaa;
+}

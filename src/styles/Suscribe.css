@@ -1,0 +1,40 @@
+.subscribebutton {
+  margin: auto;
+  padding: 0;
+  background: black;
+  color: honeydew;
+  font-size: large;
+  background-color: black;
+}
+.sus-btn {
+  font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 10px;
+  background: linear-gradient(-32deg, #000033, #00ffff);
+  color: #fff;
+  border: 0px;
+  padding-bottom: 5px;
+  width: 150px;
+}
+
+.wrapper h3 {
+  text-align: center;
+  margin-top: 10%;
+  font-weight: 200;
+}
+.wrapper .row {
+  text-align: center;
+  padding: 10px;
+  margin: 12px;
+}
+
+.wrapper .row .col {
+  margin: 10px;
+}
+.my-row {
+  padding: 10px;
+  margin-top: 60px;
+}
+.my-col {
+  padding: 8px;
+}

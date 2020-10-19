@@ -1,0 +1,28 @@
+
+.bookshelf .thumb{
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 2%;
+    width: 15% !important;
+    box-shadow:0px 1px 3px rgba(0,0,0,.3);
+    max-width:150px;
+    min-width: 60px;
+}
+.bookshelf .thumb img{
+    width:100%;
+    display:block;
+    vertical-align:top;
+}
+.bookshelf .shelf-img{
+    z-index:0;
+    height: auto;
+    max-width: 80%;
+    vertical-align: top;
+    margin-top:-12px;
+}
+
+.bookshelf{
+    text-align: center;
+    padding:0px;
+    padding-top:80px ;
+}
